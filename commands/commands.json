@@ -1,0 +1,66 @@
+{
+    "Help": {
+      "name":"도움",
+      "group":"User",
+      "desc":"Displays a list of commands",
+      "aliases":"도움, help",
+      "usage":"help [Group OR Command]"
+    },
+    "Ping": {
+      "name":"핑",
+      "group":"User",
+      "desc":"Returns the ping to the channel",
+      "aliases":"핑, ping",
+      "usage":"ping"
+    },
+    "Stats": {
+      "name":"Stats",
+      "group":"User",
+      "desc":"Provides global statistics about PUBG Companion",
+      "aliases":"stats",
+      "usage":"stats"
+    },
+    "Info": {
+      "name":"Info",
+      "group":"User",
+      "desc":"Gets infomation about a specific user or the current server",
+      "aliases":"info",
+      "usage":"info [server / @user]"
+    },
+    "Invite": {
+      "name":"Invite",
+      "group":"User",
+      "desc":"Provides infomation about inviting PUBG Companion to a server",
+      "aliases":"invite",
+      "usage":"invite"
+    },
+    "Support": {
+      "name":"Support",
+      "group":"User",
+      "desc":"Gets a link to my support hub/server",
+      "aliases":"support",
+      "usage":"support"
+    },
+    "Updates": {
+      "name":"Updates",
+      "group":"User",
+      "desc":"Retrieves infomation about PUBG Companion's latest update from her support hub",
+      "aliases":"updates, update",
+      "usage":"updates"
+    },
+    "Announce": {
+      "name":"Announce",
+      "group":"Moderator",
+      "desc":"Makes an announcement to the specified channel\n**Requires:** manage messages",
+      "aliases":"announce",
+      "usage":"announce [#channel] | <title> | [message] | [HEXcolor] | [Emoji 1] | [Emoji 2]"
+    },
+      "pubg": {
+      "name":"PUBG Player Stats",
+      "group":"User",
+      "desc":"Shows the stats of a PUBG player of your choice",
+      "aliases":"pubg",
+      "usage":"pubg <player nickname> | <platform (-pc/-xbox)> | <region (-eu/-na/-as/-sea/-kakoo/-cs/-krjp/-sa> | [last match]",
+      "example":"p!pubg YouAreBread -pc-krjp lm\nShows the last match of the user YouAreBread on PC, in the Korea/Japan region."
+    }
+  }
